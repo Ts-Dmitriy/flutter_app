@@ -19,10 +19,10 @@ class _BottomPageState extends State<BottomPage> {
 
   int pageIndex = 0;
   final pages = [
-    const MainPage(),
-    const SecondPage(),
-    const ThirdPage(),
-    const FourthPage(),
+     MainPage(),
+     SecondPage(),
+    MapGoogle(),
+     FourthPage(),
   ];
 
   @override
